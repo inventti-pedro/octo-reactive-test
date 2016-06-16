@@ -1,9 +1,6 @@
-$releaseToken = '6b809a5e767f40b2af33851f7e594dfe'
+include "build\release.ps1"
 
-properties {
-	$versao
-	$url
-}
+
 
 Task Default -depends HelloWorld
 
@@ -30,5 +27,3 @@ Function Forcar-Versao {
 	
 	
 }
-
-Function Post
