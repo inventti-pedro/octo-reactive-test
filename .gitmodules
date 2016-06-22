@@ -4,3 +4,6 @@
 [submodule "build/release-script"]
 	path = build/release-script
 	url = https://github.com/inventti/script-deploy-varejos.git
+[submodule "build/ScriptsRelease"]
+	path = build/ScriptsRelease
+	url = https://github.com/inventti/script-deploy-varejos.git
