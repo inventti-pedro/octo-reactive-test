@@ -3,8 +3,8 @@ $ScriptPath = Split-Path $MyInvocation.MyCommand.Path
 Import-Module "$ScriptPath\ScriptsRelease\GithubRelease.psm1"
 
 properties {
-    $usuario = "inventti"
-    $repositorio = "octo-reactive-test"
+    $usuario = "inventti-pedro"
+    $repositorio = "octo-reactive-release"
     $releaseToken = "6b809a5e767f40b2af33851f7e594dfe"
     $caminhoRepositorioRelease = "$ScriptPath\ProjetoRelease"
 }
