@@ -1,7 +1,6 @@
 include "build\release.ps1"
 
 
-
 Task Default -depends HelloWorld
 
 Task HelloWorld {
@@ -14,9 +13,6 @@ Task LimparCache {
 Task ForcarVersao {
 
 	$linkDownload = read-host "Versão: "
-
-	
-
 }
 
 Function Forcar-Versao {
