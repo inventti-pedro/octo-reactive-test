@@ -7,3 +7,6 @@
 [submodule "build/ScriptsRelease"]
 	path = build/ScriptsRelease
 	url = https://github.com/inventti/script-deploy-varejos.git
+[submodule "build/ProjetoRelease"]
+	path = build/ProjetoRelease
+	url = https://github.com/inventti-pedro/octo-reactive-release.git
